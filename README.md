@@ -53,6 +53,7 @@ This package contains all the page classes for AccountDropDownAfterLoginTests, C
 To run as a Maven project: 
 	1) Install and set up Java
 	2) Install and set up Maven plugin
+	3) Install 
 	3) Clone the project and set the following:
 		a.In resources/TestBase.java, change data_properties_path to the path of the project
 	b. In resoruces/data.properties, change screenshotsPath to the location you want to save the screenshot taken when a test fails
