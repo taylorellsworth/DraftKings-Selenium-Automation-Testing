@@ -28,13 +28,16 @@ This package contains all the test classes.
 	- Listeners.java
 		- Implents iTestListener and contains methods such as onTestFailure and onTestSkipped
 
-### Src/main/java/pageObjects
+### /src/main/java/pageObjects
 This package contains all the page classes for AccountDropDownAfterLoginTests, ChooseNFLPlayersForLineupTests CreateNewLineupQuestionsTests, HomePageTests, LogInPageTests, and NFLLobbyTests. All the 'Find By' methods that are defined in each page class can be used in test classes by importing the class to perform actions on web elements.
 
 	- /resources
-		- ExtentReporterNG.java – Produces HTML reports after test execution
-		- TestBase.java – Contains common methods for initializing the driver, taking screenshots, and getting available players by position
-		- Data.properties – property file containing data used in tests
+		- ExtentReporterNG.java
+			- Produces HTML reports after test execution
+		- TestBase.java
+			- Contains common methods for initializing the driver, taking screenshots, and getting available players by position
+		- Data.properties
+			- Property file containing data used in tests
 
 ### XML Files
  	- pom.xml 
@@ -43,4 +46,5 @@ This package contains all the page classes for AccountDropDownAfterLoginTests, C
     		- Contains the all class names that are to be triggered to run the complete suite of test cases.
   
 ### Test-Output Folder
-	- ExtentReportsTestNG.html is generated under this folder
+	- ExtentReportsTestNG.html
+		- Generated under this folder
