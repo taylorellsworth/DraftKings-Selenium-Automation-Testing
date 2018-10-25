@@ -5,7 +5,8 @@ This repository contains a Page Object Model test automation framework using Tes
 Test automation framework contains the following:
 
 ### /src/test/java/tests
-	This package contains all the test classes.
+
+This package contains all the test classes.
 
 	- AccountDropDownAfterLoginTests.java – Contains tests for the drop down window that appears when the user hovers over their account name.
 
@@ -29,7 +30,7 @@ This package contains all the page classes for AccountDropDownAfterLoginTests, C
 	- TestBase.java – Contains common methods for initializing the driver, taking screenshots, and getting available players by position
 	- Data.properties – property file containing data used in tests
 
-## XML Files
+### XML Files
   - pom.xml 
     - Contains all the plugins and dependencies that are required to run the test as maven project. TestNG.xml is configured in this pom.xml to trigger the test.
   - TestNG.xml
