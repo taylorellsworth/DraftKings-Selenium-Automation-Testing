@@ -5,25 +5,31 @@ This repository contains a Page Object Model test automation framework using Tes
 Test automation framework contains the following:
 
 ### /src/test/java/tests
-
 This package contains all the test classes.
 
-	- AccountDropDownAfterLoginTests.java – Contains tests for the drop down window that appears when the user hovers over their account name.
+	- AccountDropDownAfterLoginTests.java
+		- Contains tests for the drop down window that appears when the user hovers over their account name.
 
-	- ChooseNFLPlayersForLineupTests.java – Contains tests for the page where the user selects their daily NFL Lineup.
+	- ChooseNFLPlayersForLineupTests.java
+		- Contains tests for the page where the user selects their daily NFL Lineup.
 
-	- CreateNewLineupQuestionsTests.java – Contains tests for the initial question page that appears when the user clicks the ‘Create New Lineup’ button.  This page asks the user for what sport, what game variant, and what start date that they want to create a lineup for.
+	- CreateNewLineupQuestionsTests.java
+		- Contains tests for the initial question page that appears when the user clicks the ‘Create New Lineup’ button.  This page asks the user for what sport, what game variant, and what start date that they want to create a lineup for.
 
-	- HomePageTests.java – Contains tests.java for the homepage that the user first accesses before they sign in
+	- HomePageTests.java
+		- Contains tests.java for the homepage that the user first accesses before they sign in
 	
-	- LogInPageTests.java – Contains tests.java for the page where the user enters their log in information
+	- LogInPageTests.java
+		- Contains tests.java for the page where the user enters their log in information
 
-	- NFLLobbyTests.java – Contains tests for the NFL Lobby page where the user searches for contests to answers
+	- NFLLobbyTests.java
+		- Contains tests for the NFL Lobby page where the user searches for contests to answers
 
-	- Listeners.java – implents iTestListener and contains methods such as onTestFailure and onTestSkipped
+	- Listeners.java
+		- Implents iTestListener and contains methods such as onTestFailure and onTestSkipped
 
 ### Src/main/java/pageObjects
-This package contains all the page classes for AccountDropDownAfterLoginTests, ChooseNFLPlayersForLineupTests CreateNewLineupQuestionsTests, HomePageTests, LogInPageTests, and NFLLobbyTests. All the 'Find By' methods that are defined in each page class can be used in test classes by importing the class to perform actions on web elements.
+	This package contains all the page classes for AccountDropDownAfterLoginTests, ChooseNFLPlayersForLineupTests CreateNewLineupQuestionsTests, HomePageTests, LogInPageTests, and NFLLobbyTests. All the 'Find By' methods that are defined in each page class can be used in test classes by importing the class to perform actions on web elements.
 
 - resources
 	- ExtentReporterNG.java – Produces HTML reports after test execution
