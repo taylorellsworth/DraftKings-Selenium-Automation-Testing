@@ -32,11 +32,11 @@ This package contains all the test classes.
 This package contains all the page classes for AccountDropDownAfterLoginTests, ChooseNFLPlayersForLineupTests CreateNewLineupQuestionsTests, HomePageTests, LogInPageTests, and NFLLobbyTests. All the 'Find By' methods that are defined in each page class can be used in test classes by importing the class to perform actions on web elements.
 
 	- /resources
-	- ExtentReporterNG.java
-		- Produces HTML reports after test execution
-	- TestBase.java
-		- Contains common methods for initializing the driver, taking screenshots, and getting available players by position
-	- data.properties
+		- ExtentReporterNG.java
+			- Produces HTML reports after test execution
+		- TestBase.java
+			- Contains common methods for initializing the driver, taking screenshots, and getting available players by position
+		- data.properties
 			- Property file containing data used in tests
 
 ### XML Files
