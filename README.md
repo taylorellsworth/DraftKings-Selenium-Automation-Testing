@@ -17,16 +17,16 @@ This package contains all the test classes.
 		- Contains tests for the initial question page that appears when the user clicks the ‘Create New Lineup’ button.  This page asks the user for what sport, what game variant, and what start date that they want to create a lineup for.
 
 	- HomePageTests.java
-		- Contains tests.java for the homepage that the user first accesses before they sign in
+		- Contains tests for the homepage that the user first accesses before they sign in.
 	
 	- LogInPageTests.java
-		- Contains tests.java for the page where the user enters their log in information
+		- Contains tests for the page where the user enters their log in information.
 
 	- NFLLobbyTests.java
-		- Contains tests for the NFL Lobby page where the user searches for contests to answers
+		- Contains tests for the NFL Lobby page where the user searches for contests to enter.
 
 	- Listeners.java
-		- Implents iTestListener and contains methods such as onTestFailure and onTestSkipped
+		- Implents iTestListener and contains methods such as onTestFailure and onTestSkipped.
 
 ### /src/main/java/pageObjects
 This package contains all the page classes for AccountDropDownAfterLoginTests, ChooseNFLPlayersForLineupTests CreateNewLineupQuestionsTests, HomePageTests, LogInPageTests, and NFLLobbyTests. All the 'Find By' methods that are defined in each page class can be used in test classes by importing the class to perform actions on web elements.
