@@ -49,7 +49,7 @@ This package contains all the page classes for AccountDropDownAfterLoginTests, C
 	- ExtentReportsTestNG.html
 		- Generated in this location
 
-### Running the Tests:
+### Running the Tests
 To run as a Maven project: 
 	1. Install and set up Java
 	2. Install and set up Maven plugin
