@@ -36,7 +36,7 @@ This package contains all the page classes for AccountDropDownAfterLoginTests, C
 		- Produces HTML reports after test execution
 	- TestBase.java
 		- Contains common methods for initializing the driver, taking screenshots, and getting available players by position
-	- Data.properties
+	- data.properties
 			- Property file containing data used in tests
 
 ### XML Files
@@ -53,14 +53,15 @@ This package contains all the page classes for AccountDropDownAfterLoginTests, C
 To run as a Maven project: 
 	1) Install and set up Java
 	2) Install and set up Maven plugin
-	3) Install 
+	3) Install browser driver of choice (ChromeDriver, FirefoxDriver or InternetExplorerDriver)
 	3) Clone the project and set the following:
-		a.In resources/TestBase.java, change data_properties_path to the path of the project
-	b. In resoruces/data.properties, change screenshotsPath to the location you want to save the screenshot taken when a test fails
-	4) Go to DraftKings.com and download the DKSalaries.csv for NFL players.  Convert the file to .xlsx.  Change DraftKingsPlayersXLSX in data.properties to the location of this file
-5)	cd to location of project and run:
-a.	mvn clean
-b.	mvn compile
-c.	mvn test
-6)	To view HTML file of results, go to Test-Output/ExtentReportsTestNG.html
-
+		a. In /resources/data.properties, set the following:
+			a. driver.path to path of installed web driver
+			b. screenshotsPath to location you want screenshots saved when a test fails 
+		a. In /resources/TestBase.java, set data_properties_path to the path of the project
+	4) Go to DraftKings.com and download the DKSalaries.csv for NFL players.  Convert the file to .xlsx.  In /resources/data.properties, change DraftKingsPlayersXLSX to the location of this file
+	5) cd to location of project and run:
+		a. mvn clean
+		b. mvn compile
+		c. mvn test
+	6) To view HTML file of results, go to Test-Output/ExtentReportsTestNG.html
