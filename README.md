@@ -50,10 +50,10 @@ This package contains all the page classes for AccountDropDownAfterLoginTests, C
 		- Generated in this location
 
 ### Running the Tests
-To run as a Maven project 
-	1. Install and set up Java
-	2. Install and set up Maven plugin
-	3. Install browser driver of choice (ChromeDriver, FirefoxDriver or InternetExplorerDriver)
+	- To run as a Maven project 
+		1. Install and set up Java
+		2. Install and set up Maven plugin
+		3. Install browser driver of choice (ChromeDriver, FirefoxDriver or InternetExplorerDriver)
 	- Clone the project and set the following:
 		- In /resources/data.properties, set the following:
 			 - driver.path to path of installed web driver
