@@ -50,18 +50,18 @@ This package contains all the page classes for AccountDropDownAfterLoginTests, C
 		- Generated in this location
 
 ### Running the Tests
-To run as a Maven project 
+	To run as a Maven project 
 		1. Install and set up Java
 		2. Install and set up Maven plugin
 		3. Install browser driver of choice (ChromeDriver, FirefoxDriver or InternetExplorerDriver)
-	- Clone the project and set the following:
-		- In /resources/data.properties, set the following:
-			 - driver.path to path of installed web driver
-			 - screenshotsPath to location you want screenshots saved when a test fails 
-		- In /resources/TestBase.java, set data_properties_path to the path of the project
-	- Go to DraftKings.com and download the DKSalaries.csv for NFL players.  Convert the file to .xlsx.  In /resources/data.properties, change DraftKingsPlayersXLSX to the location of this file
-	- cd to location of project and run:
-		- mvn clean
-		- mvn compile
-		- mvn test
-	- To view HTML file of results, go to Test-Output/ExtentReportsTestNG.html
+		4. Clone the project and set the following:
+		5. In /resources/data.properties, set the following:
+			a. driver.path to path of installed web driver
+			b. screenshotsPath to location you want screenshots saved when a test fails 
+		6. In /resources/TestBase.java, set data_properties_path to the path of the project
+		7. Go to DraftKings.com and download the DKSalaries.csv for NFL players.  Convert the file to .xlsx.  In /resources/data.properties, change DraftKingsPlayersXLSX to the location of this file
+		8. cd to location of project and run:
+			a. mvn clean
+			b. mvn compile
+		9. mvn test
+		10. To view HTML file of results, go to Test-Output/ExtentReportsTestNG.html
