@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7,868.546" tests="46" errors="0" skipped="27" failures="11">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="51.323" tests="13" errors="0" skipped="11" failures="2">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/tellsworth16/Documents/Career/Selenium/DraftKingsSeleniumAutomationTesting/target/surefire/surefirebooter5305993536546308915.jar /Users/tellsworth16/Documents/Career/Selenium/DraftKingsSeleniumAutomationTesting/target/surefire 2018-10-22T23-45-55_566-jvmRun1 surefire8497994877222147324tmp surefire_06217543756761897944tmp"/>
+    <property name="sun.java.command" value="/Users/tellsworth16/Documents/Career/Selenium/DraftKingsSeleniumAutomationTesting/target/surefire/surefirebooter8601716311155582056.jar /Users/tellsworth16/Documents/Career/Selenium/DraftKingsSeleniumAutomationTesting/target/surefire 2018-10-29T20-43-16_171-jvmRun1 surefire4590072599928312942tmp surefire_07567670875647249883tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/tellsworth16/Documents/Career/Selenium/DraftKingsSeleniumAutomationTesting/target/test-classes:/Users/tellsworth16/Documents/Career/Selenium/DraftKingsSeleniumAutomationTesting/target/classes:/Users/tellsworth16/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-java/3.13.0/selenium-java-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.13.0/selenium-edge-driver-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.13.0/selenium-firefox-driver-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.13.0/selenium-ie-driver-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.13.0/selenium-opera-driver-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.13.0/selenium-safari-driver-3.13.0.jar:/Users/tellsworth16/.m2/repository/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar:/Users/tellsworth16/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/tellsworth16/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tellsworth16/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/tellsworth16/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tellsworth16/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/tellsworth16/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/tellsworth16/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/tellsworth16/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/tellsworth16/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/tellsworth16/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tellsworth16/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/tellsworth16/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/tellsworth16/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/tellsworth16/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/tellsworth16/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/tellsworth16/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar:/Users/tellsworth16/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar:/Users/tellsworth16/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/tellsworth16/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/tellsworth16/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/tellsworth16/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/tellsworth16/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/tellsworth16/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/tellsworth16/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/tellsworth16/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/tellsworth16/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/tellsworth16/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/tellsworth16/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar:/Users/tellsworth16/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/tellsworth16/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/tellsworth16/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/tellsworth16/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/tellsworth16/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/tellsworth16/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/tellsworth16/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/tellsworth16/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/tellsworth16/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/tellsworth16/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/tellsworth16/Documents/Career/Selenium/DraftKingsSeleniumAutomationTesting/target/surefire/surefirebooter5305993536546308915.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tellsworth16/Documents/Career/Selenium/DraftKingsSeleniumAutomationTesting/target/surefire/surefirebooter8601716311155582056.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,124 +61,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="verifyAllLinksAppearInDropDown" classname="tests.AccountDropDownAfterLogInTests" time="5.684"/>
-  <testcase name="verifySignOut" classname="tests.AccountDropDownAfterLogInTests" time="1.448"/>
-  <testcase name="verifyDraftedRBsAppearInLineup" classname="tests.ChooseNFLPlayersForLineupTests" time="54.699">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;dkjs-draft&apos;]/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: 646d9d6d9278034c30075109c65105e4&#10;*** Element info: {Using=xpath, value=//*[@id=&apos;dkjs-draft&apos;]/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='dkjs-draft']/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'Taylors-MacBook-Pro-1.local', ip: '192.168.1.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 646d9d6d9278034c30075109c65105e4
-*** Element info: {Using=xpath, value=//*[@id='dkjs-draft']/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span}
-	at tests.ChooseNFLPlayersForLineupTests.verifyDraftedPlayerAppearsInLineup(ChooseNFLPlayersForLineupTests.java:286)
-	at tests.ChooseNFLPlayersForLineupTests.verifyDraftedRBsAppearInLineup(ChooseNFLPlayersForLineupTests.java:178)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 41903
-Only local connections are allowed.
-Oct 22, 2018 11:47:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="verifyDraftedTEsAppearInLineup" classname="tests.ChooseNFLPlayersForLineupTests" time="31.033">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;dkjs-draft&apos;]/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: b509d9426907c8e20960dd24d7299c1f&#10;*** Element info: {Using=xpath, value=//*[@id=&apos;dkjs-draft&apos;]/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='dkjs-draft']/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'Taylors-MacBook-Pro-1.local', ip: '192.168.1.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: b509d9426907c8e20960dd24d7299c1f
-*** Element info: {Using=xpath, value=//*[@id='dkjs-draft']/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span}
-	at tests.ChooseNFLPlayersForLineupTests.verifyDraftedPlayerAppearsInLineup(ChooseNFLPlayersForLineupTests.java:286)
-	at tests.ChooseNFLPlayersForLineupTests.verifyDraftedTEsAppearInLineup(ChooseNFLPlayersForLineupTests.java:212)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 17989
-Only local connections are allowed.
-Oct 22, 2018 11:48:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="verifyDraftedWRsAppearInLineup" classname="tests.ChooseNFLPlayersForLineupTests" time="31.599">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;dkjs-draft&apos;]/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: 30f663f7f051c35896afad53473b3177&#10;*** Element info: {Using=xpath, value=//*[@id=&apos;dkjs-draft&apos;]/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='dkjs-draft']/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'Taylors-MacBook-Pro-1.local', ip: '192.168.1.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 30f663f7f051c35896afad53473b3177
-*** Element info: {Using=xpath, value=//*[@id='dkjs-draft']/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div[2]/div/span/span}
-	at tests.ChooseNFLPlayersForLineupTests.verifyDraftedPlayerAppearsInLineup(ChooseNFLPlayersForLineupTests.java:286)
-	at tests.ChooseNFLPlayersForLineupTests.verifyDraftedWRsAppearInLineup(ChooseNFLPlayersForLineupTests.java:195)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 34964
-Only local connections are allowed.
-Oct 22, 2018 11:49:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="openWebPage" classname="tests.ChooseNFLPlayersForLineupTests" time="56.559">
-    <failure message="Expected condition failed: waiting for url to contain &quot;https://www.draftkings.com/&quot;. Current url: &quot;data:,&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: a0dc58978ce5b37bc1806441ff21ca53" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for url to contain "https://www.draftkings.com/". Current url: "data:," (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'Taylors-MacBook-Pro-1.local', ip: '192.168.1.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: a0dc58978ce5b37bc1806441ff21ca53
-	at tests.ChooseNFLPlayersForLineupTests.openWebPage(ChooseNFLPlayersForLineupTests.java:29)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 7107
-Only local connections are allowed.
-Oct 22, 2018 11:50:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="openWebPage" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="openWebPage" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="openWebPage" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="openWebPage" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="openWebPage" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyNavtigateToDraftPlayersPage" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped message="Expected condition failed: waiting for url to contain &quot;https://www.draftkings.com/&quot;. Current url: &quot;data:,&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: a0dc58978ce5b37bc1806441ff21ca53"/>
-  </testcase>
-  <testcase name="verifySearchedDSTsCorrectlyAppearInPlayerPickerContainer" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped message="Expected condition failed: waiting for url to contain &quot;https://www.draftkings.com/&quot;. Current url: &quot;data:,&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: a0dc58978ce5b37bc1806441ff21ca53"/>
-  </testcase>
-  <testcase name="verifySearchedQBsCorrectlyAppearInPlayerPickerContainer" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped message="Expected condition failed: waiting for url to contain &quot;https://www.draftkings.com/&quot;. Current url: &quot;data:,&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: a0dc58978ce5b37bc1806441ff21ca53"/>
-  </testcase>
-  <testcase name="verifySearchedRBsCorrectlyAppearInPlayerPickerContainer" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped message="Expected condition failed: waiting for url to contain &quot;https://www.draftkings.com/&quot;. Current url: &quot;data:,&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: a0dc58978ce5b37bc1806441ff21ca53"/>
-  </testcase>
-  <testcase name="verifySearchedTEsCorrectlyAppearInPlayerPickerContainer" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped message="Expected condition failed: waiting for url to contain &quot;https://www.draftkings.com/&quot;. Current url: &quot;data:,&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: a0dc58978ce5b37bc1806441ff21ca53"/>
-  </testcase>
-  <testcase name="verifySearchedWRsCorrectlyAppearInPlayerPickerContainer" classname="tests.ChooseNFLPlayersForLineupTests" time="0">
-    <skipped message="Expected condition failed: waiting for url to contain &quot;https://www.draftkings.com/&quot;. Current url: &quot;data:,&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/p1/980gjk8n7bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: a0dc58978ce5b37bc1806441ff21ca53"/>
-  </testcase>
-  <testcase name="verifyCancelButtonisDisplayed" classname="tests.CreateNewLineupQuestionsTests" time="20.011">
+  <testcase name="verifyCancelButtonisDisplayed" classname="tests.CreateNewLineupQuestionsTests" time="33.416">
     <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
 Timed out waiting for driver server to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
@@ -186,131 +69,18 @@ System info: host: 'Taylors-MacBook-Pro-1.local', ip: '192.168.1.148', os.name: 
 Driver info: driver.version: ChromeDriver
 	at tests.CreateNewLineupQuestionsTests.navigateToCreateNewLineupQuestionsPage(CreateNewLineupQuestionsTests.java:28)
 	at tests.CreateNewLineupQuestionsTests.verifyCancelButtonisDisplayed(CreateNewLineupQuestionsTests.java:200)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:18740/status] to be available after 20007 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:46978/status] to be available after 20005 ms
 	at tests.CreateNewLineupQuestionsTests.navigateToCreateNewLineupQuestionsPage(CreateNewLineupQuestionsTests.java:28)
 	at tests.CreateNewLineupQuestionsTests.verifyCancelButtonisDisplayed(CreateNewLineupQuestionsTests.java:200)
 Caused by: java.util.concurrent.TimeoutException
 	at tests.CreateNewLineupQuestionsTests.navigateToCreateNewLineupQuestionsPage(CreateNewLineupQuestionsTests.java:28)
 	at tests.CreateNewLineupQuestionsTests.verifyCancelButtonisDisplayed(CreateNewLineupQuestionsTests.java:200)
 </failure>
-    <system-err><![CDATA[Oct 22, 2018 11:51:31 PM org.openqa.selenium.os.OsProcess checkForError
-SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "/Users/tellsworth16/Documents/Career/Selenium/chromedriver" (in directory "."): error=0, spawn failed)
+    <system-err><![CDATA[Oct 29, 2018 8:43:47 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "/Users/tellsworth16/Documents/Career/Selenium/chromedriver" (in directory "."): error=2, No such file or directory)
 ]]></system-err>
   </testcase>
-  <testcase name="verifyAllSportsDisplayedInContainerTest" classname="tests.HomePageTests" time="0.538"/>
-  <testcase name="verifyEnterPromoCodeLink" classname="tests.HomePageTests" time="0.031"/>
-  <testcase name="verifyEnterPromoCodeLinkText" classname="tests.HomePageTests" time="0.036"/>
-  <testcase name="verifyFAQText" classname="tests.HomePageTests" time="0.032"/>
-  <testcase name="verifyFooterCompanyDirectoryLinks" classname="tests.HomePageTests" time="61.066">
-    <failure message="expected [3] but found [12]" type="java.lang.AssertionError">java.lang.AssertionError: expected [3] but found [12]
-	at tests.HomePageTests.verifyFooterCompanyDirectoryLinks(HomePageTests.java:152)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 29897
-Only local connections are allowed.
-Oct 23, 2018 12:52:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="verifyNavHeaderIsDisplayed" classname="tests.HomePageTests" time="0.03"/>
-  <testcase name="verifySignInText" classname="tests.HomePageTests" time="0.033"/>
-  <testcase name="navigateToSignInPage" classname="tests.LoginPageTests" time="60.638">
-    <failure message="unknown error: unable to discover open pages&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.33 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-unknown error: unable to discover open pages
-  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.33 seconds
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'Taylors-MacBook-Pro-1.local', ip: '192.168.1.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_181'
-Driver info: driver.version: ChromeDriver
-	at tests.LoginPageTests.navigateToSignInPage(LoginPageTests.java:28)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 14120
-Only local connections are allowed.
-]]></system-err>
-  </testcase>
-  <testcase name="navigateToSignInPage" classname="tests.LoginPageTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="navigateToSignInPage" classname="tests.LoginPageTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyInvalidLoginAttempts" classname="tests.LoginPageTests" time="0">
-    <skipped message="unknown error: unable to discover open pages&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.33 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver"/>
-  </testcase>
-  <testcase name="verifyInvalidLoginAttempts" classname="tests.LoginPageTests" time="0">
-    <skipped message="unknown error: unable to discover open pages&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.33 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver"/>
-  </testcase>
-  <testcase name="verifyInvalidLoginAttempts" classname="tests.LoginPageTests" time="0">
-    <skipped message="unknown error: unable to discover open pages&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.33 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver"/>
-  </testcase>
-  <testcase name="verifyAllEntryFeeLowPricesCanBeSelectedFromDropDown" classname="tests.NFLLobbyTests" time="60.531">
-    <failure message="unknown error: unable to discover open pages&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.37 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-unknown error: unable to discover open pages
-  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.37 seconds
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'Taylors-MacBook-Pro-1.local', ip: '192.168.1.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_181'
-Driver info: driver.version: ChromeDriver
-	at tests.NFLLobbyTests.navigateToNFLLobbyPage(NFLLobbyTests.java:24)
-	at tests.NFLLobbyTests.verifyAllEntryFeeLowPricesCanBeSelectedFromDropDown(NFLLobbyTests.java:62)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 37791
-Only local connections are allowed.
-]]></system-err>
-  </testcase>
-  <testcase name="closeBrowser" classname="tests.NFLLobbyTests" time="60.534">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at tests.NFLLobbyTests.closeBrowser(NFLLobbyTests.java:48)
-</failure>
-    <system-err><![CDATA[java.lang.NullPointerException
-	at resources.TestBase.getScreenshot(TestBase.java:79)
-	at tests.Listeners.onTestFailure(Listeners.java:31)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1731)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-]]></system-err>
-  </testcase>
-  <testcase name="verifyGameStyleSelectionRadioButtons" classname="tests.NFLLobbyTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyNavtigateToCreateLineupPage" classname="tests.CreateNewLineupQuestionsTests" time="60.46">
-    <failure message="unknown error: unable to discover open pages&#10;  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.35 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;Taylors-MacBook-Pro-1.local&apos;, ip: &apos;192.168.1.148&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-unknown error: unable to discover open pages
-  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.35 seconds
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'Taylors-MacBook-Pro-1.local', ip: '192.168.1.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_181'
-Driver info: driver.version: ChromeDriver
-	at tests.CreateNewLineupQuestionsTests.navigateToCreateNewLineupQuestionsPage(CreateNewLineupQuestionsTests.java:28)
-	at tests.CreateNewLineupQuestionsTests.verifyNavtigateToCreateLineupPage(CreateNewLineupQuestionsTests.java:62)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 48080
-Only local connections are allowed.
-]]></system-err>
-  </testcase>
-  <testcase name="closeBrowser" classname="tests.CreateNewLineupQuestionsTests" time="60.465">
+  <testcase name="closeBrowser" classname="tests.CreateNewLineupQuestionsTests" time="33.425">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at tests.CreateNewLineupQuestionsTests.closeBrowser(CreateNewLineupQuestionsTests.java:51)
 </failure>
@@ -344,6 +114,9 @@ Only local connections are allowed.
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]></system-err>
+  </testcase>
+  <testcase name="verifyNavtigateToCreateLineupPage" classname="tests.CreateNewLineupQuestionsTests" time="0">
+    <skipped/>
   </testcase>
   <testcase name="verifyFirstQuestionisDisplayed" classname="tests.CreateNewLineupQuestionsTests" time="0">
     <skipped/>

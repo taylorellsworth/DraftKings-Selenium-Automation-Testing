@@ -7,42 +7,6 @@
   </listeners>
   <test name="Testing Home Page(failed)">
     <classes>
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="openWebPage"/>
-          <include name="verifyFooterCompanyDirectoryLinks"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="verifyInvalidLoginAttempts"/>
-          <include name="navigateToSignInPage"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.NFLLobbyTests">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="verifyAllEntryFeeLowPricesCanBeSelectedFromDropDown"/>
-          <include name="verifyGameStyleSelectionRadioButtons"/>
-        </methods>
-      </class> <!-- tests.NFLLobbyTests -->
-      <class name="tests.ChooseNFLPlayersForLineupTests">
-        <methods>
-          <include name="verifyDraftedRBsAppearInLineup"/>
-          <include name="verifyDraftedTEsAppearInLineup"/>
-          <include name="verifySearchedQBsCorrectlyAppearInPlayerPickerContainer"/>
-          <include name="verifySearchedTEsCorrectlyAppearInPlayerPickerContainer"/>
-          <include name="verifyNavtigateToDraftPlayersPage"/>
-          <include name="verifySearchedWRsCorrectlyAppearInPlayerPickerContainer"/>
-          <include name="openWebPage"/>
-          <include name="verifySearchedRBsCorrectlyAppearInPlayerPickerContainer"/>
-          <include name="closeBrowser"/>
-          <include name="verifyDraftedWRsAppearInLineup"/>
-          <include name="verifySearchedDSTsCorrectlyAppearInPlayerPickerContainer"/>
-        </methods>
-      </class> <!-- tests.ChooseNFLPlayersForLineupTests -->
       <class name="tests.CreateNewLineupQuestionsTests">
         <methods>
           <include name="verifyCancelButtonisDisplayed"/>
